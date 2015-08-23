@@ -5,7 +5,7 @@ This is the project for Getting and Cleaning Data Course
 
 2. Unzip the file in the default working directory
 
-3. Run the R script ([run_analysis.R](run_analysis.R)).** 
+3. Run the R script [run_analysis.R](run_analysis.R).
 
 Here are the steps that must be performed before running the R script:
 
