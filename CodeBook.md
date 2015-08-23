@@ -1,3 +1,3 @@
 ## Code Book
 
-This document describes the code inside run_analysis.R.
+This code book will describe the data used in this project and the processing steps
