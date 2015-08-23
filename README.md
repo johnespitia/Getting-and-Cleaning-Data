@@ -1,4 +1,4 @@
-Getting and Cleaning Data
+## Getting and Cleaning Data
 
 Here are the steps that must be performed before running the R script:
 
