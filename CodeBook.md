@@ -26,4 +26,4 @@ Aditional information is available in `README.txt`
 5. The activity column was converted from a integer to a factor, using `activity_name` variable.
 6.  `reshape2` package was loaded
 6. Tidy data set was created with the average of each variable for each activity and each subject.
-7. `Tidy.csv` file was created with write.table() function. 
+7. `Tidy.txt` file was created with write.table() function. 
