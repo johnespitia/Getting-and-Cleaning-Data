@@ -24,6 +24,6 @@ Aditional information is available in `README.txt`
 4. Columns were removed that did not contain the exact string "mean()" or "std()"
 5. `activity_name` variable was created with activity_labels file.
 5. The activity column was converted from a integer to a factor, using `activity_name` variable.
-6. reshape2 package was loaded
+6.  `reshape2` package was loaded
 6. Tidy data set was created with the average of each variable for each activity and each subject.
 7. `Tidy.csv` file was created with write.table() function. 
