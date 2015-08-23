@@ -18,5 +18,5 @@ To check this project:
 
 3. Run the R script [run_analysis.R](run_analysis.R).
 
-4. The output is tidy data set(tidy.csv) that you can find in your default working directory.
+4. The output is tidy data set(tidy.csv or tidy.txt) that you can find in your default working directory.
 
