@@ -1,8 +1,7 @@
 ## Getting and Cleaning Data
 This is the project for Getting and Cleaning Data Course
 
-Here are the data for the project: 
-[this URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+[Here are the data for the project](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 Here are the steps that must be performed before running the R script:
 
