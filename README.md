@@ -1,4 +1,4 @@
-The class project for Getting and Cleaning Data was to read in the "Human Activity Recognition Using Smartphones" data set, perform an analysis on the data set, and output a tidy data set.
+Getting and Cleaning Data
 
 Here are the steps that must be performed before running the R script:
 
