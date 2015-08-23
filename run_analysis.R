@@ -18,6 +18,10 @@ names(subject_test) <- "ID"
 names(X_train) <- features$V2
 names(X_test) <- features$V2
 
+# add column name for label files
+names(y_train) <- "activity"
+names(y_test) <- "activity"
+
 ## 1. Merges the training and the test sets to create one data set
 
 train <- cbind(subject_train, y_train, X_train)
@@ -32,17 +36,17 @@ merge_set <- merge_set[, measures]
 
 ## 3. Uses descriptive activity names to name the activities in the data set
 
-labels <- activity_labels["V2"]
+labels_temp <- activity_labels["V2"]
 # create a string with activities name
-for(i in 1:sum(!is.na(labels))) {
+for(i in 1:sum(!is.na(labels_temp))) {
    if (i == 1) {
-      activity_name <- toString(labels[i,])
+      activity_name <- toString(labels_temp[i,])
    } else {
-        activity_name <- c(activity_name, toString(labels[i,]))
+        activity_name <- c(activity_name, toString(labels_temp[i,]))
    }
 }
 # convert the activity column from factor
-merge_set$activity <- factor(combined$activity, labels=c(activity_name))
+merge_set$activity <- factor(merge_set$activity, labels=c(activity_name))
 
 # load the reshape2 package
 library('reshape2')
