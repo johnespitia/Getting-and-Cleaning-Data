@@ -13,3 +13,5 @@ This code book will describe the data used in this project and the processing st
  6. `y_test.txt:` Test labels.
  7. `features.txt:` List of all features.
  8. `activity_labels.txt:` Links the class labels with their activity name.
+ 
+Aditional information is available in `README.txt`
